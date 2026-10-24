@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "ruletamod",
+  "version": "${version}",
+  "name": "Ruleta del Caos",
+  "description": "Cada 2-5 minutos sale una ruleta de colores que cambia algo del juego.",
+  "authors": ["Tu nombre"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.ruletamod.RuletaMod"],
+    "client": ["com.ruletamod.RuletaClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
